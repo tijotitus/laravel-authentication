@@ -27,9 +27,9 @@
 
     <div class="main-content-inner">
         <div class="row">
-            <div class="card">
+            
                 <div class="card-header">Post List</div>
-                <div class="card-body">
+                
 
                     <table class="table table-striped table-bordered table-responsive" style="width: 100%">
                         <thead>
@@ -68,8 +68,7 @@
 
                     {{ $posts->links() }}
 
-                </div>
-            </div>
+                
         </div>
     </div>
 @endsection
