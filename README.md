@@ -28,7 +28,7 @@ Install Laravel Dependencies -
 composer install
 ```
 
-Create database called - `laravel_role`
+Create database called - `laravel_authentication`
 
 Create `.env` file by copying `.env.example` file
 
