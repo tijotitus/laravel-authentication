@@ -30,8 +30,7 @@ class ReportViolationController extends Controller
      */
     public function create() : View
     {
-        $this->checkAuthorization(auth()->user(), ['blog.create']);
-        return view('backend.pages.posts.create');
+       
     }
 
     /**
@@ -52,49 +51,32 @@ class ReportViolationController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Post $blog) : View
+    public function show(Post $blog)
     {
-        return view('backend.pages.posts.show', [
-            'post' => $blog
-        ]);
+        
     }
 
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Post $blog) : View
+    public function edit(Post $blog) 
     {
-        $this->checkAuthorization(auth()->user(), ['blog.edit']);
-
-        return view('backend.pages.posts.edit', [
-            'post' => $blog
-        ]);
+       
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Post $blog) : RedirectResponse
+    public function update(Request $request, Post $blog) 
     {
-        $this->checkAuthorization(auth()->user(), ['blog.edit']);
-
-        $validated = $request->validate([
-            'title' => 'required|max:255|unique:posts,title,' . $blog->id,
-            'description' => 'required',
-        ]);
-        $blog->update($request->all());
-        return redirect()->route('admin.blogs.index')
-                ->withSuccess('New post is added successfully.');
+        
     }
 
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Post $blog) : RedirectResponse
+    public function destroy(Post $blog) 
     {
-        $this->checkAuthorization(auth()->user(), ['blog.delete']);
-        $blog->delete();
-        return redirect()->route('admin.blogs.index')
-                ->withSuccess('Post is deleted successfully.');
+        
     }
 }
