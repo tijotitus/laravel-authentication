@@ -92,5 +92,5 @@ Blog Page
 [adminLoginImage]: https://i.ibb.co/4g4vs4g/7-Login-Page.png "7-Login-Page"
 [errorPageImage]: https://i.ibb.co/HYcvRH4/8-Error-Page-Handle.png "8 - Error Page Handling"
 [sidebarDyanamic]: https://i.ibb.co/Jpq6X8x/9-Sidebar-Manage-Dynamically.png "9-Sidebar-Manage-Dynamically"
-[bloglistingpage]: https://ibb.co/r5yB4sP "10 - Post listing page"
+[bloglistingpage]: https://i.ibb.co/8P8y6c3/Screenshot-2024-07-13-155823.png "10 - Post listing page"
 
