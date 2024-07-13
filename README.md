@@ -13,6 +13,16 @@ password - 12345678
 - Spatie role permission package  `^6.4`
 
 ## Project Setup
+Git clone -
+```console
+git clone https://github.com/tijotitus/laravel-authentication.git
+```
+
+Go to project folder -
+```console
+cd laravel-authentication
+```
+
 Install Laravel Dependencies -
 ```console
 composer install
