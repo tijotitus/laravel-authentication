@@ -83,7 +83,7 @@ Blog Page
 
 
 
-[dashboardImage]: https://i.ibb.co/WyxWFp7/1-Laravel-Role-Dashboard.png "Dashboard Page Laravel Role Management"
+[dashboardImage]: https://i.ibb.co/4MwCHML/Screenshot-2024-07-13-160214.png "Dashboard Page Laravel Role Management"
 [roleListImage]: https://i.ibb.co/80jM3Q7/2-Laravel-Manage-Roles.png "2-Laravel-Manage-Roles"
 [roleCreateImage]: https://i.ibb.co/kgM1ShW/3-Laravel-Role-Create.png "3-Laravel-Role-Create"
 [roleEditImage]: https://i.ibb.co/b6jNPFr/4-Laravel-Role-Edit.png "4-Laravel-Role-Edit"
