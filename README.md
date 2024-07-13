@@ -78,6 +78,8 @@ Custom Error Pages
 ![alt text][errorPageImage]
 Dynamic Sidebar Manage
 ![alt text][sidebarDyanamic]
+Blog Page
+![alt text][bloglistingpage]
 
 
 
