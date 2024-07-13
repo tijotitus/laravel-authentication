@@ -31,40 +31,39 @@
                 <div class="card-header">Post List</div>
                 
 
-                    <table class="table table-striped table-bordered table-responsive" style="width: 100%">
-                        <thead>
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered" style="width: 100%">
+                        <thead class="thead-dark">
                             <tr>
                                 <th scope="col">S#</th>
-                                <th scope="col">title</th>
-                                <th scope="col">description</th>
+                                <th scope="col">Title</th>
+                                <th scope="col">Description</th>
                                 <th scope="col">Action</th>
                             </tr>
                         </thead>
                         <tbody>
                             @forelse ($posts as $post)
-                                <tr>
-                                    <th scope="row">{{ $loop->iteration }}</th>
-                                    <td>{{ $post->title }}</td>
-                                    <td>{{ $post->description }}</td>
-                                    <td>
-
-
-                                        <a href="{{ route('admin.blogs.show', $post->id) }}"
-                                            class="btn btn-warning btn-sm"><i class="bi bi-eye"></i> Show</a>
-
-
-
-                                    </td>
-                                </tr>
-                            @empty
-                                <td colspan="6">
-                                    <span class="text-danger">
-                                        <strong>No Posts Found!</strong>
-                                    </span>
+                            <tr>
+                                <th scope="row">{{ $loop->iteration }}</th>
+                                <td>{{ $post->title }}</td>
+                                <td>{{ $post->description }}</td>
+                                <td>
+                                    <a href="{{ route('admin.blogs.show', $post->id) }}" class="btn btn-warning btn-sm">
+                                        <i class="bi bi-eye"></i> Show
+                                    </a>
                                 </td>
+                            </tr>
+                            @empty
+                            <tr>
+                                <td colspan="4" class="text-center">
+                                    <span class="text-danger"><strong>No Posts Found!</strong></span>
+                                </td>
+                            </tr>
                             @endforelse
                         </tbody>
                     </table>
+                </div>
+                
 
                     {{ $posts->links() }}
 
