@@ -43,6 +43,9 @@ class Kernel extends HttpKernel
             'throttle:60,1',
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
         ],
+        'throttle:login' => [
+            \Illuminate\Routing\Middleware\ThrottleRequests::class.':5,1', // 5 attempts per minute
+        ],
     ];
 
     /**
