@@ -90,4 +90,5 @@ Dynamic Sidebar Manage
 [adminLoginImage]: https://i.ibb.co/4g4vs4g/7-Login-Page.png "7-Login-Page"
 [errorPageImage]: https://i.ibb.co/HYcvRH4/8-Error-Page-Handle.png "8 - Error Page Handling"
 [sidebarDyanamic]: https://i.ibb.co/Jpq6X8x/9-Sidebar-Manage-Dynamically.png "9-Sidebar-Manage-Dynamically"
+[bloglistingpage]: https://ibb.co/r5yB4sP "10 - Post listing page"
 
