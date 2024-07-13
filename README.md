@@ -37,7 +37,6 @@ Run Project -
 php artisan serve
 ```
 
-Since, there is any problem to seeder, Please import the .sql file directly - https://github.com/ManiruzzamanAkash/laravel-role/blob/master/database/sql/laravel_role.sql
 
 So, You've got the project of Laravel Role & Permission Management on your http://localhost:8000
 
@@ -45,15 +44,14 @@ So, You've got the project of Laravel Role & Permission Management on your http:
 1. Login using Super Admin Credential -
     1. Username - `superadmin`
     1. Password - `12345678`
-2. Create Admin
+2. Create User
 3. Create Role
 4. Assign Permission to Roles
-5. Assign Multiple Role to an admin
+5. Assign Multiple Role to an user
 6. Check by login with the new credentials.
-7. If you've not enough permission to do any task, you'll get a warning message.
-
-## Learn More & Discussion
-https://devsenv.com/tutorials/laravel-role-permission-management-system-full-example-with-source-code
+7. Assign create permission to user to create blog ( list, view ,create, edit, delete)
+8. In dashboard users can see all posts and view them 
+9. In view page user can report post
 
 
 
