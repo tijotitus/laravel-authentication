@@ -31,7 +31,7 @@
                 <div class="card-header">Post List</div>
                 <div class="card-body">
 
-                    <table class="table table-striped table-bordered">
+                    <table class="table table-striped table-bordered table-responsive" style="width: 100%">
                         <thead>
                             <tr>
                                 <th scope="col">S#</th>
@@ -59,7 +59,7 @@
                             @empty
                                 <td colspan="6">
                                     <span class="text-danger">
-                                        <strong>No Product Found!</strong>
+                                        <strong>No Posts Found!</strong>
                                     </span>
                                 </td>
                             @endforelse
