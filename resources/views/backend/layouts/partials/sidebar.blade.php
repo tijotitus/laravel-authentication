@@ -90,7 +90,21 @@
                         </ul>
                     </li>
                     @endif
-
+                    @if ($usr->can('dashboard.view'))
+                    <li class="active">
+                        <form id="logout-form" action="{{ route('admin.logout.submit') }}" method="POST">
+                            @csrf
+                            <ul class="active">
+                                <li class="">
+                                    <a href="#" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                                        Logout
+                                    </a>
+                                </li>
+                            </ul>
+                        </form>
+                    </li>
+                    @endif
+                    
                 </ul>
             </nav>
         </div>
